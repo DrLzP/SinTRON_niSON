@@ -7,9 +7,9 @@ import { Stethoscope } from "lucide-react"
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-white to-blue-200 dark:from-zinc-900 dark:via-zinc-800 dark:to-zinc-700 p-6">
+    <main className="min-h-screen flex items-center justify-center bg-[url('/ecg-pattern.svg')] bg-cover bg-center bg-no-repeat dark:bg-zinc-900 p-6">
       <motion.div
-        className="bg-white dark:bg-zinc-900 rounded-2xl shadow-xl p-10 max-w-lg text-center border border-zinc-200 dark:border-zinc-700"
+        className="bg-white dark:bg-zinc-900 bg-opacity-90 dark:bg-opacity-90 rounded-2xl shadow-xl p-10 max-w-lg text-center border border-zinc-200 dark:border-zinc-700"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
